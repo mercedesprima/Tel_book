@@ -13,7 +13,7 @@ def add_data() -> None:
 
 def find_data() -> None:
     '''Осуществляет поиск из справочника'''
-    data = input("Введите данные для поиска: ")
+    data = input("Введите данные для поиска контакта: ")
     with open('book.txt', 'r', encoding='utf-8') as f:
         tel_book = f.read()
     print('Результаты поиска: ')
